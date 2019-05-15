@@ -1,0 +1,30 @@
+{
+  "name": "jget",
+  "version": "1.0.0",
+  "description": "Use GET functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc&&babel browserside -d browsersidebin",
+    "test": "npm run build",
+    "start": "node test.js"
+  },
+  "keywords": [
+    "get",
+    "online",
+    "web",
+    "servise",
+    "fast",
+    "client"
+  ],
+  "author": "Sharkbyteprojects",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@types/node": "^12.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
