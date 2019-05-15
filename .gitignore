@@ -1,7 +1,6 @@
 index.js
 ./browserside/index.js
 ./browserside/index.js.map
-browserside
 browsersidebin
 node_modules
 package-lock.json
